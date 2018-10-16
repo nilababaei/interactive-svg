@@ -1,0 +1,31 @@
+#left-eye {
+  animation: shifty-difty 3s linear infinite;
+}
+
+#right-eye {
+  animation: shifty-difty 3s linear infinite;
+}
+
+@keyframes shifty-difty {
+
+  0% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+
+}
+
+#left-ear,
+#right-ear {
+  transition: all .5s ease-in;
+}
+
+#bear:hover #right-ear,
+#bear:hover #left-ear{
+  transform: translateY(-15px);
+}
