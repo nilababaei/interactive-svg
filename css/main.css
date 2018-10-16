@@ -11,9 +11,11 @@
   0% {
     transform: translateX(5px);
   }
+
   50% {
     transform: translateX(-5px);
   }
+
   100% {
     transform: translateX(5px);
   }
@@ -26,6 +28,6 @@
 }
 
 #bear:hover #right-ear,
-#bear:hover #left-ear{
+#bear:hover #left-ear {
   transform: translateY(-15px);
 }
